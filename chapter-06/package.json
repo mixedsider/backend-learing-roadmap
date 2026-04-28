@@ -1,0 +1,20 @@
+{
+  "name": "chapter-06-business-logic",
+  "version": "1.0.0",
+  "description": "Chapter 06 - 비즈니스 로직과 예외 처리",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.10.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

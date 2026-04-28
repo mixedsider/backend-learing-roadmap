@@ -1,0 +1,16 @@
+{
+  "name": "chapter-01-basics",
+  "version": "1.0.0",
+  "description": "Chapter 01 - 백엔드 개발의 기초 및 환경 구축",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
