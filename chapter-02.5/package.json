@@ -1,0 +1,22 @@
+{
+  "name": "chapter-02-5-javascript-node-express",
+  "version": "1.0.0",
+  "description": "Chapter 02.5 - JavaScript 기초와 Node.js/Express 입문",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "ex:hello": "node examples/01-hello.js",
+    "ex:variables": "node examples/02-variables.js",
+    "ex:functions": "node examples/03-functions.js",
+    "ex:data": "node examples/04-array-object.js",
+    "ex:async": "node examples/05-async.js",
+    "ex:module": "node examples/06-module-app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
