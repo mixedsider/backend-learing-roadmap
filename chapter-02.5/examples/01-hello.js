@@ -4,5 +4,8 @@
 console.log('Hello, JavaScript!');
 console.log('Node.js는 브라우저 밖에서 JavaScript를 실행합니다.');
 
-const now = new Date();
-console.log(`현재 시간: ${now.toISOString()}`);
+let now = new Date(); // const 상수, let 변수
+console.log(now); // 시간값
+
+now = "상수입니다."
+console.log(now); // 상수입니다.

@@ -1,8 +1,8 @@
 // 배열과 객체
 // 실행: npm run ex:data
 
-const students = [
-  { id: 1, name: '지민', major: 'Computer Science', score: 92 },
+const students = [ // 배열
+  { id: 1, name: '지민', major: 'Computer Science', score: 92 }, // 객체
   { id: 2, name: '서연', major: 'Business', score: 84 },
   { id: 3, name: '현우', major: 'Computer Science', score: 76 },
 ];
