@@ -24,17 +24,3 @@ const students = [
   { id: 14, score: 67 },
   { id: 15, score: 13 },
 ];
-
-// 점수가 70 점이 넘는 학생들만 남기기
-const studentPass = students.filter((student) => student.score >= 70 );
-
-// 점수 배열로 변경
-const studentPassScores = studentPass.map((student) => student.score );
-
-let sum = 0;
-for( let i = 0; i < studentPassScores.length; i++ ) {
-    const score = studentPassScores[i];
-    sum += score;
-}
-
-console.log(sum / studentPassScores.length);
