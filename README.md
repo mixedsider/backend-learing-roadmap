@@ -8,6 +8,7 @@
 | chapter-01 | 백엔드 기초 및 환경 구축 | Node.js, dotenv |
 | chapter-02 | Git & GitHub 실전 속성 | Git, GitHub |
 | chapter-03 | RESTful API 설계와 구현 | Express.js, Postman |
+| chapter-03-5 | [통합 복습] 게시판 API & Git/GitHub 실전 | Express.js, Git |
 | chapter-04 | 데이터베이스 핵심 및 연동 | MySQL, Prisma ORM |
 | chapter-05 | 사용자 인증과 보안 | JWT, bcrypt |
 | chapter-06 | 비즈니스 로직과 예외 처리 | Zod, Winston |
